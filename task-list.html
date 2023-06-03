@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TASK_LIST</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+<body>
+	<div class="row mt-5">
+		<div class="col-md-6 m-auto">
+			<div class="card">
+				<div class="card-holder bg-info text-center text-white">
+					<h2>TASK-LIST</h2>
+				</div>
+				<div class="card-body">
+					<input type="text" placeholder="Enter Task" class="form-control" id="task">
+				</div>
+				<div class="form-group text-center">
+					<input type="submit" class="btn-secondary" value="ADD TASK" id="add-task-btn">
+				</div>
+			</div>
+		</div>
+		<div class="row mt-3">
+			<div class="col-md-6 m-auto">
+				<ul class="list-group" id="task-list">
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!-- script code -->
+<script src="app.js"></script>
+
+</body>
+</html>
